@@ -1,22 +1,24 @@
-# Presidential Elections and Economic Indicators
+Presidential Elections and Economic Indicators
 
-## Overview
+Overview
 
 This project analyzes the relationship between U.S. presidential elections and key economic indicators. By leveraging historical data, we aim to understand how economic performance influences electoral outcomes and how the winning party affects future economic conditions.
 
-## Project Goals
+Project Goals
 
-- **Predict Election Outcomes:** Use models to assess how various economic indicators like GDP growth, inflation, and unemployment rates correlate with presidential election results.
-- **Forecast Economic Indicators:** Analyze how the winning party impacts future economic performance using time series analysis.
+- Predict Election Outcomes: Use models to assess how various economic indicators like GDP growth, inflation, and unemployment rates correlate with presidential election results.
+- Forecast Economic Indicators: Analyze how the winning party impacts future economic performance using time series analysis.
 
-## Models Used
+Models Used
 
-1. **Logistic Regression:** To predict the likelihood of a party winning an election based on economic indicators.
-2. **Time Series Analysis:** To forecast future values of economic indicators based on the results of upcoming elections.
+1. Logistic Regression: To predict the likelihood of a party winning an election based on economic indicators.
+2. Time Series Analysis: To forecast future values of economic indicators based on the results of upcoming elections.
 
-## Getting Started
+Getting Started
 
-### Prerequisites
+TBD
+
+Prerequisites
 
 - Python 3.x
 - Libraries: `pandas`, `numpy`, `matplotlib`, `scikit-learn`, `statsmodels`
