@@ -1,24 +1,49 @@
-Presidential Elections and Economic Indicators
+Analyzing the Relationship of Election Outcomes and United States Economics
 
 Overview
 
-This project analyzes the relationship between U.S. presidential elections and key economic indicators. By leveraging historical data, we aim to understand how economic performance influences electoral outcomes and how the winning party affects future economic conditions.
+Problem: Both political parties often assert that their governance leads to better economic outcomes, but it can be challenging to discern which statements are credible or how economics impact their control of government. This project explores the relationship between economic indicators and U.S. presidential election outcomes
+
+Project Questions
+
+- Do economic and political factors significantly predict whether the next president will be Republican or Democrat?
+- Does either Democrat or Republican control lead to better economic outcomes? If so, in what areas?
 
 Project Goals
 
-- Predict Election Outcomes: Use models to assess how various economic indicators like GDP growth, inflation, and unemployment rates correlate with presidential election results.
-- Forecast Economic Indicators: Analyze how the winning party impacts future economic performance using time series analysis.
+- Predict Election Outcomes: Use models to assess how various economic indicators like GDP Growth, Inflation, and Unemployment rates correlate with presidential election results.
+- Forecast Economic Indicators: Analyze how the winning party impacts future economic performance using interaction terms.
 
 Models Used
 
-1. Logistic Regression: To predict the likelihood of a party winning an election based on economic indicators.
-2. Time Series Analysis: To forecast future values of economic indicators based on the results of upcoming elections.
+1. Random Forests: Using 100 trees and a max depth of 10, we want to predict the likelihood of a party winning an election based on economic indicators.
+2. Logistic Regression: To create an inital forecast future values of economic indicators based on the results of upcoming elections.
+3. Interactions Terms: Using multiple factors of who has control of the House of Representatives and Senate, States of Birth and Residency, and other factors, create a machine model of how the economy will do.
 
 Getting Started
 
-TBD
+We collected Data from several areas:
+
+- FRED API - Allowed us to grab the history of various economic indicators over the years. Included in this is the National GDP over the past 80 years.
+- Britannica - Allowed us to pull every president, their political party, and their term in office.
+- Yahoo Finance - Provided the daily S&P 500 values going back to its inception.
+- Wikipedia - Pulled other information including House and Senate party representation.
 
 Prerequisites
 
 - Python 3.x
-- Libraries: `pandas`, `numpy`, `matplotlib`, `scikit-learn`, `statsmodels`
+- Libraries:
+    -pandas 
+    -requests
+    -numpy
+    -matplotlib
+    -scikit-learn
+    -statsmodels
+    -BeautifulSoup
+    -yfinance
+    -fredapi
+    -SciPy
+    -SeaBorn
+
+
+
