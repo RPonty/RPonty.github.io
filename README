@@ -18,8 +18,7 @@ Models Used
 
 1. Random Forests: Using 100 trees and a max depth of 10, we want to predict the likelihood of a party winning an election based on economic indicators.
 2. Logistic Regression: To create an inital forecast future values of economic indicators based on the results of upcoming elections.
-3. Interactions Terms: Using multiple factors of who has control of the House of Representatives and Senate, States of Birth and Residency, and other factors, create a machine model of how the economy will do.
-
+3. 
 Getting Started
 
 We collected Data from several areas:
