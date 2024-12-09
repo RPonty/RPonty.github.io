@@ -1,1 +1,11 @@
-Insert conclusions here
+Out of all the economic factors, the most important factors were:
+Median CPI
+Disposable Personal Income
+Median Home Price
+
+Overall inflation was considered in our model,  but it did not fall into the top categories of feature importance. Inflation (or CPI) as home prices highly impacted our model, indicating that people care more about their ability to provide sustenance and shelter for their families. 
+We  cannot reject the Null Hypothesis  (p-value = 0.23) as despite our accuracy, our randomized model correctly predicted our target variable 23% of the time.
+Another factor to consider, is that the perception of the economy, and not the reality, may have a huge effect on political outcomes, which some parties may take advantage of.
+Challenges we faced: Limited data in scope, as the earliest that the Federal Reserve had for some data was 1983
+DISCLAIMER: We fully Realize more factors than just economics affect a presidential election, such as past political experience.
+
